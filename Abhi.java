@@ -16,6 +16,10 @@ public class Abhi {
 		hash.add("410 shotgun");
 		
 		Iterator itr = hash.iterator();
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
 	}
 
 }
